@@ -79,3 +79,12 @@ binディレクトリ内で以下のコマンドにより実行できる．
 ```
   java sample.Main
 ```
+## C#
+### プロジェクトの生成
+```
+  dotnet new console
+```
+### 実行
+```
+  dotnet run
+```
