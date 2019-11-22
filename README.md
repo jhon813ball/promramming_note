@@ -88,3 +88,11 @@ binディレクトリ内で以下のコマンドにより実行できる．
 ```
   dotnet run
 ```
+## TeX
+### Windowsで日本語論文をコンパイルしてPDFに出力する
+win32texが導入されていることとする．
+```
+  uplatex main.tex  // 全体のコンパイル
+  uplatex main.tex  // 目次などのコンパイル
+  dvipdfmx main.dvi  // PDFに出力
+```
