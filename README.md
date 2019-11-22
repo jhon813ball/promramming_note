@@ -49,12 +49,12 @@ Windousの場合は.exeファイルが生成されるため，以下のコマン
 ## Java
 ### パッケージ管理を考慮したコンパイル
 以下のディレクトリ構造を仮定する．
-
-root/
-　├ bin/
-　└ src/
-　  　└ sample/Main.java
-
+```
+  root/
+　  ├ bin/
+　  └ src/
+　    　└ sample/Main.java
+```
 srcディレクトリで以下のコマンドを入力する．
 ```
   javac -d ..\bin sample\Main.java
@@ -64,13 +64,13 @@ srcディレクトリで以下のコマンドを入力する．
   javac -encoding UTF-8 -d ..\bin sample\Main.java
 ```
 classファイルはbinディレクトリ内に生成され，ディレクトリ構造は次のようになる．
-
-root/
-　├ bin/
-　│　└ sample/Main.class
-　└ src/
-　  　└ sample/Main.java
-
+```
+  root/
+  　├ bin/
+　  │　└ sample/Main.class
+　  └ src/
+　    　└ sample/Main.java
+```
 ちなみに，Main.javaの枕には以下のように記述されているとする．
 ```java
   package sample;
