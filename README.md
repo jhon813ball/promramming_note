@@ -75,3 +75,7 @@ classファイルはbinディレクトリ内に生成され，ディレクトリ
 ```java
   package sample;
 ```
+binディレクトリ内で以下のコマンドにより実行できる．
+```
+  java sample.Main
+```
