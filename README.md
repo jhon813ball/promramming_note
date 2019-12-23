@@ -63,6 +63,10 @@ srcディレクトリで以下のコマンドを入力する．
 ```
   javac -encoding UTF-8 -d ..\bin sample\Main.java
 ```
+Javaランタイムが問題がある場合は，次のコマンド．
+```
+  javac --release 8 -d ..\bin sample\Main.java
+```
 classファイルはbinディレクトリ内に生成され，ディレクトリ構造は次のようになる．
 ```
   root/
